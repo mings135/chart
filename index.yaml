@@ -1,0 +1,172 @@
+apiVersion: v1
+entries:
+  elasticsearch:
+  - apiVersion: v1
+    appVersion: 7.16.3
+    created: "2022-09-18T18:25:23.1807755+08:00"
+    description: Official Elastic helm chart for Elasticsearch
+    digest: 3ce99330b34a754f27737701afaf7893d6f7db7207450a69e7c05818b2b2844b
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/elasticsearch.png
+    maintainers:
+    - email: helm-charts@elastic.co
+      name: Elastic
+    name: elasticsearch
+    sources:
+    - https://github.com/elastic/elasticsearch
+    urls:
+    - https://mings135.github.io/chart/elasticsearch-7.16.3.tgz
+    version: 7.16.3
+  - apiVersion: v1
+    appVersion: 7.16.2
+    created: "2022-09-18T18:25:23.1791245+08:00"
+    description: Official Elastic helm chart for Elasticsearch
+    digest: fa2b7933d0386d5b5a5966651d35b74bb3626d7fc9f6eb9846411c750f00afe5
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/elasticsearch.png
+    maintainers:
+    - email: helm-charts@elastic.co
+      name: Elastic
+    name: elasticsearch
+    sources:
+    - https://github.com/elastic/elasticsearch
+    urls:
+    - https://mings135.github.io/chart/elasticsearch-7.16.2.tgz
+    version: 7.16.2
+  etcd:
+  - apiVersion: v2
+    appVersion: 3.5.3-alpine
+    created: "2022-09-18T18:25:23.1824295+08:00"
+    description: etcd 集群（仅 http, 无认证）
+    digest: d019c52016254251e6fbab1d15572821d911a3ddb7e9d0a7e88c1fc4ad45bf49
+    name: etcd
+    type: application
+    urls:
+    - https://mings135.github.io/chart/etcd-1.6.0.tgz
+    version: 1.6.0
+  - apiVersion: v2
+    appVersion: 3.4.13-m
+    created: "2022-09-18T18:25:23.1818783+08:00"
+    description: 自动部署 etcd 集群（仅 http）
+    digest: ebde47a0040297c75d5bf73d40ec8a24d22f256ae2239fc0bd9b7734dc8db2dd
+    name: etcd
+    type: application
+    urls:
+    - https://mings135.github.io/chart/etcd-1.5.1.tgz
+    version: 1.5.1
+  - apiVersion: v2
+    appVersion: 3.4.13-m
+    created: "2022-09-18T18:25:23.1813259+08:00"
+    description: 自动部署 etcd 集群（仅支持 http）
+    digest: cbef8ecbd067317b2b0727cd1a80e0df33e3a85eb2e0329d8db324810af6226b
+    name: etcd
+    type: application
+    urls:
+    - https://mings135.github.io/chart/etcd-1.5.0.tgz
+    version: 1.5.0
+  fluentd-elasticsearch:
+  - apiVersion: v2
+    appVersion: 3.3.0
+    created: "2022-09-18T18:25:23.184687+08:00"
+    description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
+    digest: ac61715ac34aa5ed36d6036ef7a92a503dd91ab5303093cb7bbe5243eafda1a9
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - elasticsearch
+    - multiline
+    - detect-exceptions
+    - logging
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+    name: fluentd-elasticsearch
+    sources:
+    - https://github.com/kokuwaio/helm-charts/tree/main/charts/fluentd-elasticsearch
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    - https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/fluentd-elasticsearch/fluentd-es-image
+    type: application
+    urls:
+    - https://mings135.github.io/chart/fluentd-elasticsearch-13.1.0.tgz
+    version: 13.1.0
+  kibana:
+  - apiVersion: v1
+    appVersion: 7.16.3
+    created: "2022-09-18T18:25:23.1868966+08:00"
+    description: Official Elastic helm chart for Kibana
+    digest: 3361ad934635d1f62428277273c3bee05ee7a6cd1e28ee0f5340d4ed93cc390b
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/kibana.png
+    maintainers:
+    - email: helm-charts@elastic.co
+      name: Elastic
+    name: kibana
+    sources:
+    - https://github.com/elastic/kibana
+    urls:
+    - https://mings135.github.io/chart/kibana-7.16.3.tgz
+    version: 7.16.3
+  - apiVersion: v1
+    appVersion: 7.16.2
+    created: "2022-09-18T18:25:23.1863509+08:00"
+    description: Official Elastic helm chart for Kibana
+    digest: 7f04ac61a61d12551fa0d5532ab7cfb3d5ce67338f3be2d8604026ebe6d50f4c
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/kibana.png
+    maintainers:
+    - email: helm-charts@elastic.co
+      name: Elastic
+    name: kibana
+    sources:
+    - https://github.com/elastic/kibana
+    urls:
+    - https://mings135.github.io/chart/kibana-7.16.2.tgz
+    version: 7.16.2
+  nats:
+  - apiVersion: v2
+    appVersion: 2.3.1
+    created: "2022-09-18T18:25:23.1879538+08:00"
+    description: A Helm chart for the NATS.io High Speed Cloud Native Distributed
+      Communications Technology.
+    digest: 6140acbe49801072c05fb0b99c5e9f69a201a8c1b3d80d2a102dc61c4df6ceed
+    home: http://github.com/nats-io/k8s
+    icon: https://nats.io/img/nats-icon-color.png
+    keywords:
+    - nats
+    - messaging
+    - cncf
+    maintainers:
+    - email: wally@nats.io
+      name: Waldemar Quevedo
+    - email: colin@nats.io
+      name: Colin Sullivan
+    - email: jaime@nats.io
+      name: Jaime Piña
+    name: nats
+    urls:
+    - https://mings135.github.io/chart/nats-0.8.2.tgz
+    version: 0.8.2
+  nfs-subdir-external-provisioner:
+  - apiVersion: v1
+    appVersion: 4.0.2
+    created: "2022-09-18T18:25:23.1884951+08:00"
+    description: nfs-subdir-external-provisioner is an automatic provisioner that
+      used your *already configured* NFS server, automatically creating Persistent
+      Volumes.
+    digest: 497a6afeff2d32765c885cdef540d89e7da2b51d7278a94304cf6a17bab9bcc0
+    home: https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner
+    keywords:
+    - nfs
+    - storage
+    - provisioner
+    kubeVersion: '>=1.9.0-0'
+    name: nfs-subdir-external-provisioner
+    sources:
+    - https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner
+    urls:
+    - https://mings135.github.io/chart/nfs-subdir-external-provisioner-4.0.12.tgz
+    version: 4.0.12
+generated: "2022-09-18T18:25:23.1765467+08:00"
